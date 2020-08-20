@@ -27,6 +27,7 @@
   
     .card {
       transition: all cubic-bezier(0.4, 0.0, 0.2, 1) .4s;
+      transform: scale(1.25);
     }
   
     .container {
@@ -82,10 +83,10 @@
     })();
   </script>
 </head>
-<body>
+<body class="clearfix">
 
-<div class="container d-flex p-2">
-  <div class="card p-centered p-2">
+<div class="container d-flex p-2" style="justify-content: center;">
+  <div class="card p-2 col-6 col-xs-9">
     <div class="column pt-2">
       <div class="tile">
         <div class="tile-icon">
